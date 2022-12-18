@@ -22,4 +22,4 @@ export default class Content extends Document {
 			</Html>
 		);
 	}
-}
+};
