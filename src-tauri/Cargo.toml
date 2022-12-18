@@ -1,11 +1,10 @@
 [package]
-name = "app"
+name = "key-beats"
 version = "0.1.0"
-description = "A Tauri App"
-authors = ["you"]
+description = "A music game"
+authors = ["aquapi"]
 license = ""
 repository = ""
-default-run = "app"
 edition = "2021"
 rust-version = "1.59"
 
