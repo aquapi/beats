@@ -7,3 +7,36 @@
     background-image: url("/background.jpg");
     background-size: cover;
 }
+
+#key-records {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    > div {
+        padding: 0;
+        margin: 0;
+    }
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    button {
+        color: white;
+        border-radius: 0%;
+        background-color: #D5D6D8;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 0;
+        width: 80px;
+        height: 60px;
+
+        font-size: larger;
+
+        outline: none;
+    }
+}

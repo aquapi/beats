@@ -4,7 +4,7 @@ const homeMessage: Message = {
     header: "Key Beats",
     description: "A music game which requires keyboard skill, and of course, music perception. Have fun playing!",
     buttons: [{
-        link: "/game",
+        link: "/play",
         text: "Play"
     }, {
         link: "/guide",
