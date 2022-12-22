@@ -1,4 +1,8 @@
 #__next {
+    &:has(#key-records) {
+        background: none;
+    }
+
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -15,6 +19,10 @@
     > div {
         padding: 0;
         margin: 0;
+
+        &:nth-child(2) > * {
+            border-top: none;
+        }
     }
 
     display: flex;
@@ -23,20 +31,24 @@
     align-items: center;
     
     button {
-        color: white;
         border-radius: 0%;
-        background-color: #D5D6D8;
 
         display: flex;
         justify-content: center;
         align-items: center;
 
         padding: 0;
-        width: 80px;
+        width: 70px;
         height: 60px;
 
         font-size: larger;
 
         outline: none;
+
+        background-color: #C1C8CD;
+        color: white;
+
+        box-shadow: none !important;
     }
 }
+

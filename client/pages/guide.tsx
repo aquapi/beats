@@ -2,7 +2,7 @@ import MessageCard, { Message } from "../src/components/MessageCard";
 
 const guideMessage: Message = {
     header: "Guide",
-    description: "Use W, E, D, S, I, O, L, K to play! If the beat runs through the line then game over!",
+    description: "Use T, Y, U, G, H, J to play! If the beat runs through the line then game over!",
     buttons: [{
         link: "/",
         text: "Back",
